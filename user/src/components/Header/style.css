@@ -1,0 +1,182 @@
+.header{
+  
+    width: 100%;
+    height: 60px;
+    background: #780206;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #061161, #780206);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #061161, #780206);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+}
+.subHeader{
+    max-width: 1100px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin: 0 auto;   
+    align-items: center;
+}
+
+.logo{
+    width: 72px;
+    
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+.logo .logoimage{
+    width: 60px;
+}
+.exploreText{ 
+    font-size: 10px;
+    font-style: italic; 
+}
+.plusText{ 
+    font-size: 10px; 
+    margin: 0 2px; 
+    text-transform: capitalize;
+    font-style: italic;
+    color: yellow;
+  }
+.logo .goldenStar{
+    width: 10px;
+    height: 10px;
+}
+
+.searchInputContainer {
+    margin-left: 10px;
+    width: 560px;
+    position: relative;
+    background: #fff;
+    height: 36px;
+    border-radius: 1px;
+    overflow: hidden;
+    display: flex;
+    border-radius: 5px;
+  }
+.searchInput {
+    width: 518px;
+    border: 0;
+    height: 36px;
+    outline: none;
+    box-sizing: border-box;
+    padding: 0 10px;
+  }
+.searchIconContainer {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+  }
+  .rightMenu{
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    align-items: center;
+    border-radius: 5px;
+    
+  }
+ .abc {
+    /* display: block; */
+    width: 70px;
+    height: 100%;
+    /* background-color: "#222222"; */
+    text-align: center;
+    line-height: 30px;
+    /* color: #222222; */
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 2px;
+  }
+.more, .fullName {
+    font-weight: bold;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    cursor: pointer;
+  }
+  /* .more:hover .fullName:hover{
+    color:#780206;
+  } */
+.cart {
+    font-weight: bold;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 20px
+  }
+
+.authContainer{
+  color: #212121;
+  margin: 0 auto;
+  border-radius: 2px;
+  height: 528px;
+  max-width: 750px;
+  min-width: 650px;
+}
+.row{
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  height: 528px;
+    max-width: 750px;
+    min-width: 650px;
+}
+
+.leftspace{
+  width: 40%;
+  height: 100%;
+  color: #fff;
+  letter-spacing: 1px;
+  background-image: url('../../images/login-image.png');
+  background: #061161;
+  background-repeat: no-repeat;
+  background-position: center 85%;
+  padding: 40px 33px;
+  box-sizing: border-box;
+}
+
+.rightspace{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+}
+
+.loginInputContainer{
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 30px;
+  margin: 40px 0;
+  
+}
+.abc{
+  font-size: 15px;
+}
+/* .loginButton{
+  width: 75px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-decoration: none;
+  border: 2px solid #010100;
+  padding: 15px;
+  color: #000;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  position: relative;
+  display: inline-block;
+  border-radius: 5px;
+} */

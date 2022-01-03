@@ -1,0 +1,37 @@
+.covid .anc {
+    align-items: center;
+    align-content: center;
+    text-align: center;
+
+}
+
+.anc {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    margin-top: -20px;
+    margin-bottom: -12px;
+}
+
+/* .carf {
+    margin-top: -17px;
+
+} */
+
+/* @media (max-width: 900px) {
+    .carousel {
+        width: auto;
+        height: auto;
+    }
+}
+.w-100 {
+    width: 100% !important;
+    height: 120vh;
+} */

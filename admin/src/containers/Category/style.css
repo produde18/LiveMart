@@ -1,0 +1,26 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+
+
+.modal-header{
+    padding: 5px 15px;
+    background-color: #D5C5C8;
+}
+.modal-title{
+    font-size: 18px;
+    color: #000000;
+}
+.modal-footer{
+    padding: 5px 15px;
+}
+
+.actionBtnContainer{
+    display: flex;
+    align-items: center;
+}
+
+.actionBtnContainer > button{
+    border: 0;
+    margin: 0 5px;
+    font-size: 14px;
+}

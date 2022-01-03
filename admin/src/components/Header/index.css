@@ -1,0 +1,24 @@
+.logo{
+    width: 88px;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+.abcdefgh{
+    margin-left: 25px;
+}
+
+.logo .logoimage{
+    width: 65px;
+    /* align-self: center;
+    align-items: center; */
+    margin-right: 25px;
+    margin-top: -10px;
+}
+.exploreText{ 
+    font-size: 10px;
+    font-style: italic; 
+}
