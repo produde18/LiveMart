@@ -80,7 +80,7 @@ exports.updateCategories = async (req, res) => {
       updatedCategories.push(updatedCategory);
     }
     return res.status(201).json({ updateCategories: updatedCategories });
-  } else {  //if it is not an array 
+  } else {   //if it is not an array
     const category = {
       name,
       type,

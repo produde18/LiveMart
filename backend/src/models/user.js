@@ -61,7 +61,7 @@ userSchema.virtual("fullName").get(function () {
 
 userSchema.methods = {
   authenticate: async function (password) {
-    return await bcrypt.compareSync(password, this.hash_password);  //to check a password if it's correct
+    return await bcrypt.compare(password, this.hash_password); //to check a password if it's correct
   },
 };
 

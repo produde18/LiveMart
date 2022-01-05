@@ -42,9 +42,9 @@ const ProductStore = (props) => {
               width: "calc(100% - 40px)",
               margin: "20px",
             }}
-          >                                            
-            <div style={{ display: "flex" }}>  //render in a row 
-              {product.productsByPrice[key].map((product) => (             
+          >
+            <div style={{ display: "flex" }}>   //render in a row 
+              {product.productsByPrice[key].map((product) => (
                 <Link
                   to={`/${product.slug}/${product._id}/p`}
                   style={{

@@ -30,7 +30,7 @@ const storage = multer.diskStorage({
   },
 });
 
-const upload = multer({ storage });   //middleware before forwarding request to create Product
+const upload = multer({ storage });  //middleware before forwarding request to create Product
 
 router.post(
   "/product/create",

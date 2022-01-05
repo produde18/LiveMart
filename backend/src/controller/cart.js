@@ -28,12 +28,10 @@ exports.addItemToCart = (req, res) => {
               "cartItems.$": cartItem,
             },
           };
-
-         
         } 
         else {
           condition = { user: req.user._id };
-          update = {
+        update = {
             $push: {
               cartItems: cartItem,
             },

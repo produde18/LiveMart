@@ -16,8 +16,8 @@ const storage = multer.diskStorage({
   },
 });
 
- const accessKeyId = process.env.accessKeyId2;
- const secretAccessKey = process.env.secretAccessKey2;
+ const accessKeyId = process.env.accessKeyId1;
+ const secretAccessKey = process.env.secretAccessKey1;
 
 const s3 = new aws.S3({
   accessKeyId,
@@ -29,8 +29,7 @@ exports.upload = multer({ storage });
 exports.uploadS3 = multer({
   storage: multerS3({
     s3: s3,
-    // bucket: "livemart17",
-    bucket:"livemart-app",
+    bucket: "livemart-app",
     acl: "public-read",
     metadata: function (req, file, cb) {
       cb(null, { fieldName: file.fieldname });

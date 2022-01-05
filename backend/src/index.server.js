@@ -24,17 +24,11 @@ const otpRoute = require('./routes/otp');
 env.config();
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
-
-//mongoDb new connection
-//mongodb+srv://admmin-produde:<password>@cluster0.jvqfq.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
-
-
 // mongodb connection
 //mongodb+srv://root:<password>@cluster0.8pl1w.mongodb.net/<dbname>?retryWrites=true&w=majority
 mongoose
   .connect(
-    // `mongodb+srv://${process.env.MONGO_DB_USER}:${process.env.MONGO_DB_PASSWORD}@cluster0.3b8sh.mongodb.net/LiveMart?retryWrites=true&w=majority`
-    'mongodb+srv://admmin-produde:Delhinew1@cluster0.jvqfq.mongodb.net/LiveMart?retryWrites=true&w=majority',
+    `mongodb+srv://root:qwerty205@cluster0.mllx3.mongodb.net/LiveMart?retryWrites=true&w=majority`,
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,

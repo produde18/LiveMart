@@ -36,8 +36,6 @@ const MenuHeader = (props) => {
     }
     return myCategories;
   }
-
-  
   return (
     <div className="menuHeader">
       <ul>
