@@ -28,7 +28,7 @@ app.use(bodyParser.json());
 //mongodb+srv://root:<password>@cluster0.8pl1w.mongodb.net/<dbname>?retryWrites=true&w=majority
 mongoose
   .connect(
-    `mongodb+srv://root:qwerty205@cluster0.mllx3.mongodb.net/LiveMart?retryWrites=true&w=majority`,
+    `mongodb+srv://${process.env.MONGO_DB_USER}:${process.env.MONGO_DB_PASSWORD}@cluster0.mllx3.mongodb.net/LiveMart?retryWrites=true&w=majority`,
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,
